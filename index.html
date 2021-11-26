@@ -5,12 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="preload" href="./css/normalize.min.css" as="style">
+    <link rel="preload" href="./css/reset.min.css" as="style">
+    <link rel="preload" href="./css/landing.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.min.css">
     <link rel="stylesheet" href="./css/reset.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="./css/landing.css">
+    <meta name="description" content="Meta descriptions can have a surprisingly large impact on your search marketing campaigns; find out how...">
     <title>Turnkey Repair</title>
 </head>
 <body>
@@ -98,7 +104,13 @@
                             <div class="slide_switch">
                                 <ul>
                                     <li>
-                                        <button class="slide_switch__button button-left"><img src="img/arrow_left.svg" alt="img/arrow_left.svg" width="42" height="14"></button>
+                                        <button class="slide_switch__button button-left">
+                                            <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z" fill="white"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z" fill="white"/>
+                                            </svg>
+
+                                        </button>
                                     </li>
                                     <li>
                                         <button class="slide_switch__button button-first">
@@ -122,7 +134,12 @@
                                         </button>
                                     </li>
                                     <li>
-                                        <button class="slide_switch__button button-right"><img src="img/arrow_right.svg" alt="img/arrow_right.svg" height="14" width="42"></button>
+                                        <button class="slide_switch__button button-right">
+                                            <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 0L41.6831 6.63804L35.0451 13.2761L34.0975 12.3285L39.788 6.63804L34.0975 0.947567L35.0451 0Z" fill="white"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7356 7.30784L0.227569 7.30784L0.22757 5.96777L40.7356 5.96778L40.7356 7.30784Z" fill="white"/>
+                                            </svg>
+                                        </button>
                                     </li>
                                 </ul>
                             </div>
@@ -150,7 +167,12 @@
                                 <div class="slide_switch">
                                     <ul>
                                         <li>
-                                            <button class="slide_switch__button button-left"><img src="img/arrow_left.svg" alt="img/arrow_left.svg" width="42" height="14"></button>
+                                            <button class="slide_switch__button button-left">
+                                                <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z" fill="white"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z" fill="white"/>
+                                                </svg>
+                                            </button>
                                         </li>
                                         <li>
                                             <button class="slide_switch__button button-first">
@@ -174,7 +196,12 @@
                                             </button>
                                         </li>
                                         <li>
-                                            <button class="slide_switch__button button-right"><img src="img/arrow_right.svg" alt="img/arrow_right.svg" height="14" width="42"></button>
+                                            <button class="slide_switch__button button-right">
+                                                <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 0L41.6831 6.63804L35.0451 13.2761L34.0975 12.3285L39.788 6.63804L34.0975 0.947567L35.0451 0Z" fill="white"/>
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7356 7.30784L0.227569 7.30784L0.22757 5.96777L40.7356 5.96778L40.7356 7.30784Z" fill="white"/>
+                                                </svg>
+                                            </button>
                                         </li>
                                     </ul>
                                 </div>
@@ -185,7 +212,7 @@
                                     <li><p class="slide__header slide_switch__button button-second unselected" >Sochi Thieves</p></li>
                                     <li><p class="slide__header slide_switch__button button-third  unselected" >Rostov-on-Don Patriotic</p></li>
                                 </ul>
-                                <img class="slider_image" src="img/slide_1.jpg" alt="img/slide_1.jpg" width="679" height="482">
+                                <img class="slider_image" src="img/slide_1.jpg" alt="img/slide_1.jpg" width="679" height="482" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -200,8 +227,8 @@
                         <img class="camera" src="img/camera.svg" alt="camera" height="29" width="34">
                     </div>
                     <div class="online_control-img">
-                        <img class="online_control-img_photo" src="img/mask_group1.jpg" alt="" width="816" height="432">
-                        <img class="online_control-img-circle" src="img/circle1.svg" alt="" width="145" height="145">
+                        <img class="online_control-img_photo" src="img/mask_group1.jpg" alt="" width="816" height="432" loading="lazy">
+                        <img class="online_control-img-circle" src="img/circle1.svg" alt="" width="145" height="145" loading="lazy">
                     </div>
                     <div class="online_control-text">
                         <hr class="line_2">
@@ -231,10 +258,10 @@
                 <div class="types_of">
                     <h3 class="types_of-repair">TYPES OF REPAIR</h3>
                     <hr class="line_1">
-                    <img class="camera hammer" src="img/hammer.svg" alt="hammer" height="28" width="28">
+                    <img class="camera hammer" src="img/hammer.svg" alt="hammer" height="28" width="28" loading="lazy">
                     <div class="types">
                         <div class="types_1 types_first">
-                            <img src="img/redecorating.jpg" alt="room" height="421" width="392">
+                            <img src="img/redecorating.jpg" alt="room" height="421" width="392" loading="lazy">
                             <div class="types_1_text">
                                 <h3>Redecorating</h3>
                                 <ul class="types_1_text_list">
@@ -252,7 +279,7 @@
                             </div>
                         </div>
                         <div class="types_1 types_second">
-                            <img src="img/overhaul.jpg" alt="room" height="421" width="392">
+                            <img src="img/overhaul.jpg" alt="room" height="421" width="392" loading="lazy">
                             <div class="types_1_text">
                                 <h3>Overhaul</h3>
                                 <ul class="types_1_text_list">
@@ -270,7 +297,7 @@
                             </div>
                         </div>
                         <div class="types_1 types_third">
-                            <img src="img/designer.jpg" alt="room" height="421" width="392">
+                            <img src="img/designer.jpg" alt="room" height="421" width="392" loading="lazy">
                             <div class="types_1_text">
                                 <h3>Designer Repair</h3>
                                 <ul class="types_1_text_list">
@@ -333,7 +360,7 @@
                     <h2 class="orange_text">We realize your
                         wildest fantasies</h2>
                     <div class="your_fantasies-for_mobile-buttons">
-                    <img src="img/fantasies_for_mobile.jpg" alt="" height="242" width="340">
+                    <img src="img/fantasies_for_mobile.jpg" alt="" height="242" width="340" loading="lazy">
                     <div class="slide_1-media-button_for_mobile fantasies-mobile">
                         <button class="button_for_mobile">
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -392,12 +419,12 @@
                                </ul>
                             </div>
                         <div class="your_fantasies-photo1">
-                            <img class="photo1" src="img/fantasies1.jpg" alt="" width="354" height="557">
-                            <img src="img/fantasies2.jpg" alt="" width="354" height="350">
+                            <img class="photo1" src="img/fantasies1.jpg" alt="" width="354" height="557" loading="lazy">
+                            <img src="img/fantasies2.jpg" alt="" width="354" height="350" loading="lazy">
                         </div>
                         <div class="your_fantasies-photo2">
-                            <img class="photo1" src="img/fantasies3.jpg" alt="" width="354" height="275">
-                            <img src="img/fantasies4.jpg" alt="" width="354" height="626">
+                            <img class="photo1" src="img/fantasies3.jpg" alt="" width="354" height="275" loading="lazy">
+                            <img src="img/fantasies4.jpg" alt="" width="354" height="626" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -407,13 +434,13 @@
                 <div class="our_clients_wrap">
                     <h2>our clients</h2>
                     <hr class="line_1">
-                    <img class="camera hand" src="img/hand.svg" alt="" height="30" width="34">
+                    <img class="camera hand" src="img/hand.svg" alt="" height="30" width="34" loading="lazy">
                     <p>80% of our customers recommend us to their<br>
                         friends and family.</p>
                     <div class="our_clients_wrap-reviews">
                         <div class="our_clients_wrap-reviews1">
                             <div class="reviews1_photo">
-                                <img src="img/fedosova.jpg" alt="" width="76" height="76">
+                                <img src="img/fedosova.jpg" alt="" width="76" height="76" loading="lazy">
                                 <p>Fedosova Maria<br>
                                     Konstantinovna</p>
                             </div>
@@ -431,7 +458,7 @@
                         </div>
                         <div class="our_clients_wrap-reviews1 second">
                             <div class="reviews1_photo">
-                                <img src="img/afanasyev.jpg" alt="" width="76" height="76">
+                                <img src="img/afanasyev.jpg" alt="" width="76" height="76" loading="lazy">
                                 <p>Afanasyev Sergey<br>
                                     Alexandrovich</p>
                             </div>
@@ -449,7 +476,7 @@
                         </div>
                         <div class="our_clients_wrap-reviews1">
                             <div class="reviews1_photo">
-                                <img src="img/kirievjpg.jpg" alt="" width="76" height="76">
+                                <img src="img/kirievjpg.jpg" alt="" width="76" height="76" loading="lazy">
                                 <p>Kiriev Egor<br>
                                     Leonidovich</p>
                             </div>
@@ -506,8 +533,8 @@
                                     <div class="socialll address_social_instagram"></div>
                                 </div>
                             </div>
-                            <img class="map" src="img/map.jpg" alt="" height="466" width="925">
-                            <img class="map-mobile" src="img/map-mobile.jpg" alt="" height="315" width="375">
+                            <img class="map" src="img/map.jpg" alt="" height="466" width="925" loading="lazy">
+                            <img class="map-mobile" src="img/map-mobile.jpg" alt="" height="315" width="375" loading="lazy">
                         </div>
                     </div>
                 </div>
